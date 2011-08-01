@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7B1922B13E7370C00345E21 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B1922A13E7370C00345E21 /* Cocoa.framework */; };
+		C7B1923513E7370D00345E21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7B1923313E7370D00345E21 /* InfoPlist.strings */; };
+		C7B1923713E7370D00345E21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B1923613E7370D00345E21 /* main.m */; };
+		C7B1923B13E7370D00345E21 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C7B1923913E7370D00345E21 /* Credits.rtf */; };
+		C7B1923E13E7370D00345E21 /* Improved_ScrollviewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B1923D13E7370D00345E21 /* Improved_ScrollviewAppDelegate.m */; };
+		C7B1924113E7370D00345E21 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7B1923F13E7370D00345E21 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C7B1922613E7370C00345E21 /* Improved Scrollview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Improved Scrollview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B1922A13E7370C00345E21 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C7B1922D13E7370C00345E21 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C7B1922E13E7370C00345E21 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C7B1922F13E7370C00345E21 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C7B1923213E7370C00345E21 /* Improved Scrollview-Info.plist */ = {isa = PBXFileReference; path = "Improved Scrollview-Info.plist"; sourceTree = "<group>"; };
+		C7B1923413E7370D00345E21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7B1923613E7370D00345E21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7B1923813E7370D00345E21 /* Improved Scrollview-Prefix.pch */ = {isa = PBXFileReference; path = "Improved Scrollview-Prefix.pch"; sourceTree = "<group>"; };
+		C7B1923A13E7370D00345E21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C7B1923C13E7370D00345E21 /* Improved_ScrollviewAppDelegate.h */ = {isa = PBXFileReference; path = Improved_ScrollviewAppDelegate.h; sourceTree = "<group>"; };
+		C7B1923D13E7370D00345E21 /* Improved_ScrollviewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Improved_ScrollviewAppDelegate.m; sourceTree = "<group>"; };
+		C7B1924013E7370D00345E21 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7B1922313E7370C00345E21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B1922B13E7370C00345E21 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7B1921B13E7370900345E21 = {
+			isa = PBXGroup;
+			children = (
+				C7B1923013E7370C00345E21 /* Improved Scrollview */,
+				C7B1922913E7370C00345E21 /* Frameworks */,
+				C7B1922713E7370C00345E21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7B1922713E7370C00345E21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7B1922613E7370C00345E21 /* Improved Scrollview.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7B1922913E7370C00345E21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7B1922A13E7370C00345E21 /* Cocoa.framework */,
+				C7B1922C13E7370C00345E21 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7B1922C13E7370C00345E21 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7B1922D13E7370C00345E21 /* AppKit.framework */,
+				C7B1922E13E7370C00345E21 /* CoreData.framework */,
+				C7B1922F13E7370C00345E21 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C7B1923013E7370C00345E21 /* Improved Scrollview */ = {
+			isa = PBXGroup;
+			children = (
+				C7B1923C13E7370D00345E21 /* Improved_ScrollviewAppDelegate.h */,
+				C7B1923D13E7370D00345E21 /* Improved_ScrollviewAppDelegate.m */,
+				C7B1923F13E7370D00345E21 /* MainMenu.xib */,
+				C7B1923113E7370C00345E21 /* Supporting Files */,
+			);
+			path = "Improved Scrollview";
+			sourceTree = "<group>";
+		};
+		C7B1923113E7370C00345E21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7B1923213E7370C00345E21 /* Improved Scrollview-Info.plist */,
+				C7B1923313E7370D00345E21 /* InfoPlist.strings */,
+				C7B1923613E7370D00345E21 /* main.m */,
+				C7B1923813E7370D00345E21 /* Improved Scrollview-Prefix.pch */,
+				C7B1923913E7370D00345E21 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7B1922513E7370C00345E21 /* Improved Scrollview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7B1924413E7370D00345E21 /* Build configuration list for PBXNativeTarget "Improved Scrollview" */;
+			buildPhases = (
+				C7B1922213E7370C00345E21 /* Sources */,
+				C7B1922313E7370C00345E21 /* Frameworks */,
+				C7B1922413E7370C00345E21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Improved Scrollview";
+			productName = "Improved Scrollview";
+			productReference = C7B1922613E7370C00345E21 /* Improved Scrollview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7B1921D13E7370900345E21 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C7B1922013E7370900345E21 /* Build configuration list for PBXProject "Improved Scrollview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C7B1921B13E7370900345E21;
+			productRefGroup = C7B1922713E7370C00345E21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7B1922513E7370C00345E21 /* Improved Scrollview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7B1922413E7370C00345E21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B1923513E7370D00345E21 /* InfoPlist.strings in Resources */,
+				C7B1923B13E7370D00345E21 /* Credits.rtf in Resources */,
+				C7B1924113E7370D00345E21 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7B1922213E7370C00345E21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B1923713E7370D00345E21 /* main.m in Sources */,
+				C7B1923E13E7370D00345E21 /* Improved_ScrollviewAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7B1923313E7370D00345E21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7B1923413E7370D00345E21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C7B1923913E7370D00345E21 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7B1923A13E7370D00345E21 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C7B1923F13E7370D00345E21 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7B1924013E7370D00345E21 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7B1924213E7370D00345E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C7B1924313E7370D00345E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C7B1924513E7370D00345E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Improved Scrollview/Improved Scrollview-Prefix.pch";
+				INFOPLIST_FILE = "Improved Scrollview/Improved Scrollview-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C7B1924613E7370D00345E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Improved Scrollview/Improved Scrollview-Prefix.pch";
+				INFOPLIST_FILE = "Improved Scrollview/Improved Scrollview-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7B1922013E7370900345E21 /* Build configuration list for PBXProject "Improved Scrollview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B1924213E7370D00345E21 /* Debug */,
+				C7B1924313E7370D00345E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7B1924413E7370D00345E21 /* Build configuration list for PBXNativeTarget "Improved Scrollview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B1924513E7370D00345E21 /* Debug */,
+				C7B1924613E7370D00345E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7B1921D13E7370900345E21 /* Project object */;
+}
