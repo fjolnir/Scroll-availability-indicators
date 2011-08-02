@@ -7,14 +7,14 @@
 //
 
 #import "Improved_ScrollviewAppDelegate.h"
+#import "FASwizzling.h"
+#import "NSScrollView+FAScrollIndications.h"
 
 @implementation Improved_ScrollviewAppDelegate
 
 @synthesize window = _window;
-
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
-{
-  // Insert code here to initialize your application
+- (void)applicationWillFinishLaunching:(NSNotification *)notification {
+  
 }
 
 @end

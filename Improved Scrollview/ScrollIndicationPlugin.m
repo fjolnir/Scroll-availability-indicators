@@ -1,16 +1,18 @@
 //
-//  main.m
+//  ScrollIndicationPlugin.m
 //  Improved Scrollview
 //
 //  Created by Fjölnir Ásgeirsson on 8/2/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
-#import "FASwizzling.h"
+#import "ScrollIndicationPlugin.h"
 #import "NSScrollView+FAScrollIndications.h"
+#import "FASwizzling.h"
 
-int main(int argc, char *argv[])
+@implementation ScrollIndicationPlugin
+
++ (void) load
 {
   SwizzleInstanceMethods([NSScrollView class], @selector(initWithFrame:), @selector(_fa_initWithFrame:));
   SwizzleInstanceMethods([NSScrollView class], @selector(initWithCoder:), @selector(_fa_initWithCoder:));
@@ -18,6 +20,7 @@ int main(int argc, char *argv[])
   SwizzleInstanceMethods([NSScrollView class], @selector(resizeSubviewsWithOldSize:), @selector(_fa_resizeSubviewsWithOldSize:));
   SwizzleInstanceMethods([NSScrollView class], @selector(_handleBoundsChangeForSubview:), @selector(_fa__handleBoundsChangeForSubview:));
 
-  
-  return NSApplicationMain(argc, (const char **)argv);
+  NSLog(@"Loaded scroll indication plugin");
 }
+
+@end

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Scroll indications' target in the 'Scroll indications' project
+//
+
+#ifdef __OBJC__
+  #import <Cocoa/Cocoa.h>
+#endif
